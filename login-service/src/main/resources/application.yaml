@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: LOGIN-SERVICE
+  config:
+    import: configserver:http://localhost:9196
+
+server:
+  port: 9898

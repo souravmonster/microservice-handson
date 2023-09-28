@@ -1,0 +1,9 @@
+server:
+  port: 9191
+spring:
+  application:
+    name: PAYMENT-SERVICE
+  config:
+    import: configserver:http://localhost:9196
+
+
